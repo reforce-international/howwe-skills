@@ -1,6 +1,6 @@
 ---
 name: report-progress
-description: Update Howwe from the conversation, always showing the changes and waiting for a yes before writing. Report progress or an outcome on an activity, report a goal's actual, commit to activities for the coming period, add a new activity, or mark an activity or milestone as done. Use for "report our progress", "log that we did", "we reached", "mark the milestone as done", "add an activity", "commit to", "rapportera utfall", "bocka av", "lägg upp en aktivitet", "vi har nått".
+description: Update Howwe from the conversation, always showing the changes and waiting for a yes before writing. Report progress or an outcome on an activity, report a goal's actual, commit to activities for the coming period, tick off kept commitments, add a new activity, or mark an activity or milestone as done. Use for "report our progress", "log that we did", "we reached", "we did what we promised", "mark the milestone as done", "add an activity", "commit to an activity", "what we will do before the next stand-up", "rapportera utfall", "bocka av", "lägg upp en aktivitet", "vi har nått".
 ---
 
 # Report progress
@@ -22,10 +22,13 @@ Read `references/writing-to-howwe.md` and `references/howwe-model.md` before you
 | What was done, or how much, on an activity | `create_activity_report` (value and/or note) | `read_activities` with commitments and reports, for the unit and earlier reports |
 | What a goal reached in a period | `report_mig_actual` | `read_migs`, for the period's `targetDate`, the rev and any actual it replaces |
 | What the team will do before the next meeting | `create_activity_commitment` | the activity, to check that it has an assignee and a target |
-| A new piece of work | `create_activity` | the team, and the initiative or milestone it supports |
-| Something is finished | `complete_item` for an activity or milestone | the item with its `read_*` tool, for the rev |
+| A promise from the last meeting is kept | `complete_activity_commitment` | `read_activities` with commitments and reports, for the commitment id and the rev |
+| A new piece of work | `create_activity`, with `assigneeId` | the team, the initiative or milestone it supports, and who owns it. Ask for the owner: without one the activity cannot be committed to |
+| The work itself is finished for good | `complete_item` for an activity or milestone | the item with its `read_*` tool, for the rev |
 
 A report on a commitment counts towards it: pass the `commitmentId` when the user reports on what they committed to.
+
+**A kept promise is not a finished activity.** "We did what we promised" ticks off the commitment with `complete_activity_commitment`; the activity stays open for the next period. Use `complete_item` on an activity only when the user says the work as a whole is done or will not continue. When it is unclear which they mean, ask.
 
 ## 3. Show, confirm, write
 

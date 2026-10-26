@@ -7,14 +7,17 @@ description: Short brief per team before its acceleration meeting (Strategy Stan
 
 The acceleration meeting is where strategy meets the week. This brief lets the team walk in knowing what moved, what is stuck and what it needs to decide, so the meeting is spent on commitments rather than on catching up.
 
-Read `references/howwe-model.md` and `references/report-practice.md` before you start. Follow both. Read `references/writing-to-howwe.md` before you offer to change anything.
+Read `references/howwe-model.md` before you start, and follow it. From `references/report-practice.md`, follow the principles, the customer profile and the writing rules. Its steps before building, its form and its file names are for longer reports: skip them here. Read `references/writing-to-howwe.md` before you offer to change anything.
 
 ## 1. Team and meeting
 
 - Call `get_current_user`, then `list_tenants`. Call the meeting by the tenant's `accelerationMeetingName`; when it is null, use the product's name in the user's language.
 - Load the customer profile as described in `references/report-practice.md`, when there is one.
 - Find the team: the user's own team when they belong to one, otherwise ask which. For several teams, make one brief per team.
-- `list_team_acceleration_meetings`: the last held meeting (`heldAt` set) marks "since last time". The next meeting is the newest row's planned time, carried as `nextScheduledAt` on the row before it. When there is no held meeting, use the last 14 days and say so.
+- `list_team_acceleration_meetings` returns the two newest meetings, newest first. Each row's `nextScheduledAt` is when the meeting *after* that row is planned.
+    - **Newest row held** (`heldAt` set): it marks "since last time", and the next meeting is its own `nextScheduledAt`.
+    - **Newest row unfinished**: that row is the next meeting, opened ahead or under way. Its planned time is the older row's `nextScheduledAt`, and the older row, when held, marks "since last time".
+    - No held meeting: use the last 14 days and say so. No planned time: count "coming up" as the next 7 days and say so.
 
 ## 2. Get the data
 
