@@ -1,6 +1,6 @@
 ---
 name: customer-profile
-description: Set up or update a Howwe customer profile: the customer's own words for goals, initiatives and forums, how each goal is read, who owns what, their management routines, report template and house rules. The report skills read it so that reports fit the customer from the first draft. Use for "set up a customer profile", "teach Claude about <customer>", "update the profile", "kundprofil", or when a report skill offers to create one.
+description: Set up or update a Howwe customer profile: the customer's own words for goals, initiatives and forums, how each goal is read, who owns what, their management routines, report template and house rules. The report skills read it so that reports fit the customer from the first draft. Use for "set up a customer profile", "teach Claude about a customer", "update the profile", "kundprofil", or when a report skill offers to create one.
 ---
 
 # Customer profile
