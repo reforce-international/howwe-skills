@@ -31,16 +31,29 @@ tools.snapshot.json               known MCP tool names for the contract test
 3. Put methodology in `references/`, keep `SKILL.md` short.
 4. No scripts for now. Plain Markdown works everywhere.
 5. Test each skill in Claude, ChatGPT and Copilot before release.
+6. Keep skills customer agnostic. Customer names, people, plans and templates belong in the customer's own profile (see the `customer-profile` skill), never in this public repository.
+7. Shared references (`howwe-model.md`, `report-practice.md`) are copied into each skill that uses them, since every skill is packaged on its own. Edit one copy and copy it to the others.
+
+## Skills
+
+| Skill | For |
+|---|---|
+| `initiative-status` | How one initiative is going |
+| `status-report` | Status report for a unit's leadership team |
+| `leadership-report` | The plan and progress for group management or a steering group |
+| `owner-conversation` | Brief before a one-to-one with an initiative owner |
+| `customer-profile` | The customer's words, goals, routines and template, read by the report skills |
 
 ## Checks
 
 ```
 python3 scripts/check_tools.py   # tool names in skills exist on the MCP server
+bash scripts/check_shared.sh     # shared references are identical in every skill
 claude plugin validate .         # Claude plugin structure
 bash scripts/build.sh            # zips per skill in dist/
 ```
 
-CI runs all three on every push and every weekday morning. With the `HOWWE_MCP_TOKEN` secret set, the contract test checks against the live server; without it, against `tools.snapshot.json`.
+CI runs all four on every push and every weekday morning. With the `HOWWE_MCP_TOKEN` secret set, the contract test checks against the live server; without it, against `tools.snapshot.json`.
 
 Rule for the MCP server: tools are never renamed or removed, only deprecated.
 

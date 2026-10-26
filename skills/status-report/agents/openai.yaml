@@ -1,0 +1,4 @@
+interface:
+  display_name: "Status report"
+  short_description: "Status report on strategy execution for the leadership team, from Howwe"
+  default_prompt: "Make a status report for our leadership team."

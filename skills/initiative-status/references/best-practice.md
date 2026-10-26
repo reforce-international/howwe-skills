@@ -7,7 +7,7 @@
 - Every milestone has an owner and a due date.
 - Milestones due in the past are completed.
 - Activities have been updated recently, so the team is actually working on it.
-- Aggregate targets and MIGs are moving toward their target at the expected pace.
+- Aggregate targets and Goals are moving toward their target at the expected pace.
 - The initiative clearly supports a higher objective in the strategic plan.
 
 ## Signals that it is at risk

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Owner conversation"
+  short_description: "One-page brief before a one-to-one with an initiative owner, from Howwe"
+  default_prompt: "Prepare my one-to-one with the owner of our most important initiative."
