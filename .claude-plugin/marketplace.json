@@ -1,0 +1,14 @@
+{
+  "name": "howwe",
+  "owner": {
+    "name": "Howwe Technologies",
+    "url": "https://howwe.io"
+  },
+  "plugins": [
+    {
+      "name": "howwe",
+      "source": "./",
+      "description": "Strategy execution with Howwe: skills and the Howwe MCP connector."
+    }
+  ]
+}

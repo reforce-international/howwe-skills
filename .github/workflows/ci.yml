@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "17 5 * * 1-5"  # weekdays, catches renamed tools in the MCP server
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tool contract test
+        env:
+          HOWWE_MCP_TOKEN: ${{ secrets.HOWWE_MCP_TOKEN }}
+        run: python scripts/check_tools.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate Claude plugin
+        run: npx -y @anthropic-ai/claude-code plugin validate .
+      - name: Build skill zips
+        run: bash scripts/build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: skill-zips
+          path: dist/*.zip

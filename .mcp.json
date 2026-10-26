@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "howwe": {
+      "type": "http",
+      "url": "https://api.howwe.io/v1/mcp"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Initiative status"
+  short_description: "How is a Howwe initiative going, using Howwe's best practice"
+  default_prompt: "How is our most important initiative going?"
