@@ -1,0 +1,4 @@
+interface:
+  display_name: "Customer profile"
+  short_description: "Teach the AI your organisation's words, goals and routines for better Howwe reports"
+  default_prompt: "Set up a customer profile for our organisation."

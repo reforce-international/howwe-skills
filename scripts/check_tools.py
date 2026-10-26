@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SNAPSHOT = ROOT / "tools.snapshot.json"
 MCP_URL = os.environ.get("HOWWE_MCP_URL", "https://api.howwe.io/v1/mcp")
-# Tool names are snake_case and wrapped in backticks in SKILL.md files.
+# Tool names are snake_case and wrapped in backticks in skill Markdown files.
 TOOL_REF = re.compile(r"`([a-z]+(?:_[a-z]+)+)`")
 
 
@@ -69,7 +69,7 @@ def main():
         tools, source = set(json.loads(SNAPSHOT.read_text())), SNAPSHOT.name
 
     missing = []
-    for skill in sorted((ROOT / "skills").glob("*/SKILL.md")):
+    for skill in sorted((ROOT / "skills").glob("*/**/*.md")):
         for name in sorted(set(TOOL_REF.findall(skill.read_text()))):
             if name not in tools:
                 missing.append(f"{skill.relative_to(ROOT)}: `{name}`")

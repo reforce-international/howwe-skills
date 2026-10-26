@@ -17,6 +17,8 @@ Give an honest, decision-ready picture of how one initiative is doing, based on 
 
 Call `read_initiative_tree` with the initiative id, and ask for activities. This returns the initiative, every supporting initiative, milestone and aggregate target, and their activities. Do not walk the tree one level at a time.
 
+The tree leaves out the goals the initiative supports. Read the root with `read_initiatives`, follow its `supports` to the goals, and read them with `read_migs`, so you can judge whether they are moving at the expected pace.
+
 If you need descriptions or objectives, read those items with `read_initiatives` or `read_milestones`.
 
 ## 3. Assess it with Howwe's best practice

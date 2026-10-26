@@ -1,7 +1,7 @@
 {
   "name": "howwe",
-  "version": "0.1.0",
-  "description": "Strategy execution with Howwe: review initiatives, milestones and MIGs, and prepare acceleration meetings using Howwe's best practice. Includes the Howwe MCP connector.",
+  "version": "0.2.0",
+  "description": "Strategy execution with Howwe: review goals, initiatives and milestones, and prepare acceleration meetings using Howwe's best practice. Includes the Howwe MCP connector.",
   "author": {
     "name": "Howwe Technologies",
     "url": "https://howwe.io"
