@@ -1,0 +1,4 @@
+interface:
+  display_name: "Report progress"
+  short_description: "Update Howwe from the chat, after you confirm each change"
+  default_prompt: "I want to report our progress this week."

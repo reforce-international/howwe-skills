@@ -1,0 +1,4 @@
+interface:
+  display_name: "Stand-up brief"
+  short_description: "Brief per team before the acceleration meeting, from Howwe"
+  default_prompt: "Prepare a brief for our next stand-up."

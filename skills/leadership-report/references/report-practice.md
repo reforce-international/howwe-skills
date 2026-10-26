@@ -1,8 +1,8 @@
-# How Howwe consultants write reports
+# How the reports are written
 
 > Shared reference. Identical copies live in each skill that uses it; CI fails if they differ. Edit one and copy it to the others.
 
-The practice behind every Howwe report, whoever it is for.
+The practice behind every report these skills make, whoever it is for.
 
 ## Principles
 

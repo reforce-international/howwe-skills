@@ -1,6 +1,6 @@
 ---
 name: owner-conversation
-description: One-page brief from live Howwe data before a manager's one-to-one with the owner of an initiative, in the customer's own language: purpose, objectives, milestones, what is overdue, what is due, where the manager can help, and three questions. Also prepares planning sessions that fill gaps in an owner's plan. Use for "one-to-one with <name>", "prepare my conversation with <name>", "what should I raise with <name>", "ägarsamtal", "underlag inför samtal med <name>".
+description: One-page brief from live Howwe data before a manager's one-to-one with the owner of an initiative, in the customer's own language: purpose, objectives, milestones, what is overdue, what is due, where the manager can help, and three questions. Also prepares planning sessions that fill gaps in an owner's plan. Use for "one-to-one with someone", "prepare my conversation with someone", "what should I raise with someone", "ägarsamtal", "underlag inför samtal med någon".
 ---
 
 # Owner conversation
