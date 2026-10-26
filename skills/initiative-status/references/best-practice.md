@@ -1,6 +1,6 @@
 # Howwe best practice: assessing an initiative
 
-> DRAFT. To be reviewed and completed by Howwe's consultants. This file is the single source of truth for the methodology and is shared by Claude, ChatGPT and Copilot.
+> Shared methodology. This file is the single source of truth for how an initiative is assessed, in Claude, ChatGPT and Copilot alike.
 
 ## Signals that an initiative is on track
 

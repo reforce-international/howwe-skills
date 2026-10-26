@@ -7,7 +7,7 @@ description: Set up or update a Howwe customer profile: the customer's own words
 
 The difference between a generic report and one that fits the customer is context: their words, their forums, how they read their goals and what they want from a report. The customer profile writes that context down once, so every report starts from it.
 
-The profile belongs to the customer and the consultant. It never goes into this repository.
+The profile belongs to the customer. It never goes into this repository.
 
 ## 1. Start from Howwe
 
@@ -34,4 +34,4 @@ Write the profile following `references/profile-template.md`, in the customer's 
 
 ## 4. Update
 
-After a report, when the user corrects a word, a reading of a goal or the form, offer in one line to add it to the profile. Small corrections compound: this is how the reports become as good as the consultant's own.
+After a report, when the user corrects a word, a reading of a goal or the form, offer in one line to add it to the profile. Small corrections compound: this is how the reports come to sound like the customer's own.

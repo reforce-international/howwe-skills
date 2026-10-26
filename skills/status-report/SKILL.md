@@ -51,4 +51,4 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 PDF by default, slides when asked. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
 
-For the group executive team or a steering group, use the leadership-report skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.
+For the board, a board committee, group management or a steering group, use the leadership-report skill. Before the team's acceleration meeting, use the stand-up-brief skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.

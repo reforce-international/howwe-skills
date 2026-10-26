@@ -1,0 +1,4 @@
+interface:
+  display_name: "My week"
+  short_description: "What is late, due and promised for you in Howwe"
+  default_prompt: "What does my week look like?"
