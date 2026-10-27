@@ -22,7 +22,9 @@ Without a profile, use the tenant's own name for the acceleration meeting and th
 
 ## Before you build
 
-1. **Ask once about the current situation.** One line: is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
+1. **Ask before you fetch any data, in one short message, and wait for the answer:**
+    - **Format.** "PowerPoint, Word, PDF or a web page (HTML)?" Put the recommended one first and say why in a few words: the format the customer profile gives for this recipient, otherwise the skill's own recommendation. Skip this question only when the user has already named a format in this conversation.
+    - **The current situation.** One line: is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
 2. **First report for this customer, or no profile?** Show a five-line outline first (verdict, the three main observations, the decisions you will propose) and ask whether it matches what they expect. It is much cheaper to correct the angle here than after the document is built.
 
 ## Working with the data
@@ -41,6 +43,7 @@ Without a profile, use the tenant's own name for the acceleration meeting and th
 ## Form
 
 - Use the customer's own template (colours, fonts, logo) from the customer profile or from files the user provides. When there is none, ask once for one; if the user has none, use a clean, neutral, high-contrast layout.
+- Deliver in the format the user chose: PowerPoint (.pptx), Word (.docx), PDF, or one self-contained HTML page. When a format cannot be made here, say so before you start and offer the closest one.
 - File name: `<Customer>-<Unit>-<Report>-<YYYY-MM-DD>`, ASCII only.
 - Language: the customer profile's language, or the user's.
 

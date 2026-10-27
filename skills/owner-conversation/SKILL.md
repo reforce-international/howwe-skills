@@ -13,6 +13,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 - Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit is meant.
 - Load the customer profile as described in `references/report-practice.md`.
+- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, before fetching data.
 - Find the owner with `list_users` (`nameContains`) and confirm with `read_users` if several match.
 - Find the owner's initiatives with `get_user_assignments` for the owner's user id and tenant, with types limited to initiatives. If there are several, cover all of them or ask which one the conversation is about.
 
@@ -53,4 +54,4 @@ When the manager or a support function plans with an owner: the same data, with 
 
 ## 6. Deliver
 
-One page, PDF by default. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.
+One page, in the format the user chose. Recommend PDF. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.

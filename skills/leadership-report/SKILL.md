@@ -13,7 +13,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 - Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which company or unit the report is for.
 - Load the customer profile as described in `references/report-practice.md`.
-- Ask the one-line question about the current situation (`references/report-practice.md`).
+- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, before fetching data.
 - Settle the recipient in one question if it is unclear: the board, a board committee (AU), group management, a business review or a steering group. The profile may say how each wants the plan framed (for example as a multi-year journey, or around a named programme).
 - **The board or AU** owns the strategy and follows up on it: lead with whether the plan is on course for its goals, the risks to it, and the decisions only the board can take. Keep execution detail to what explains the goals.
 - **Group management or a steering group** wants to see how the unit's plan fits the group: keep section 6 below.
@@ -52,6 +52,6 @@ Every section ends with what happens next, with a date.
 
 ## 5. Deliver
 
-Slides by default; an editable document when the recipient wants to build on it; PDF on request. Large headings, clear high-contrast colours within the customer's template. Follow the form, file-name and checking rules in `references/report-practice.md`.
+In the format the user chose. Recommend PowerPoint, or Word when the recipient wants to build on the text. Large headings, clear high-contrast colours within the customer's template. Follow the form, file-name and checking rules in `references/report-practice.md`.
 
 For the company's or unit's own leadership team, use the status-report skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.
