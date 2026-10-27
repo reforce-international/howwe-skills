@@ -11,7 +11,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 1. Customer context
 
-- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit the report is for.
+- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit the report is for, with the format in the same message.
 - Load the customer profile as described in `references/report-practice.md`.
 
 ## 2. Get the data
@@ -33,7 +33,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 - **One question per initiative owner**, including the head's own initiatives, each with a number or date.
 - **Into the routines**: per initiative, the indicators, reports and next steps that go straight into the customer's own follow-up (scorecard, monthly report, personal goals) as the profile names them.
 
-Then ask the one question in "Before you build" in `references/report-practice.md`, and wait for the answer. **Format:** PowerPoint, Word, PDF or a web page. Recommend PowerPoint: the leadership team works in the decisions, action cards and agenda during the meeting, so the report should be editable.
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint, Word, PDF or a web page. Recommend PowerPoint: the leadership team works in the decisions, action cards and agenda during the meeting, so the report should be editable.
 
 ## 4. Structure
 

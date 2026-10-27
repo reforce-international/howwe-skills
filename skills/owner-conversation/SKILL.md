@@ -15,6 +15,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 - Load the customer profile as described in `references/report-practice.md`.
 - Find the owner with `list_users` (`nameContains`) and confirm with `read_users` if several match.
 - Find the owner's initiatives with `get_user_assignments` for the owner's user id and tenant, with types limited to initiatives. If there are several, cover all of them or ask which one the conversation is about.
+- **Whenever this step has to ask** (which unit, which owner, which initiative), put the format question in the same message, as in "Before you build" in `references/report-practice.md`. When the owner's initiatives come only after the owner is settled, ask which initiative together with the format if the format is still open.
 
 ## 2. Get the data
 
@@ -36,7 +37,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 - **Three questions**, open, each tied to a number or a date.
 - **One next step** to agree in the conversation and follow up next time, phrased so it goes straight into the owner's personal goals or scorecard as the profile describes them.
 
-Then ask the one question in "Before you build" in `references/report-practice.md`, and wait for the answer. **Format:** PDF, Word, PowerPoint or a web page. Recommend PDF, a page to read before the conversation; Word when the manager wants to write in it.
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PDF, Word, PowerPoint or a web page. Recommend PDF, a page to read before the conversation; Word when the manager wants to write in it.
 
 ## 4. Structure (one page, two at most)
 

@@ -24,13 +24,15 @@ Without a profile, use the tenant's own name for the acceleration meeting and th
 
 This applies to reports delivered as a document. Each report skill names its formats and its recommendation in its own SKILL.md.
 
-1. **Fetch and analyse first.** Reading changes nothing and does not depend on the format, so do not stop to ask before it. The only question that comes earlier is which tenant or unit the report is for, when the user can read several.
-2. **Then ask once, in one short message, and wait for the answer:**
-    - **Format**, with the recommended one first and why in a few words. The recommendation is the format the customer profile gives for this recipient, otherwise the skill's own. Ask for every report: a format chosen for an earlier report does not carry over, and the profile's format is a recommendation, never a reason to skip. Skip the question only when the user has already named a format for this report.
+1. **Fetch and analyse first.** Reading changes nothing and does not depend on the format, so do not stop to ask before it. When a question has to be asked before fetching (which tenant or unit, which owner, which initiative, which recipient), ask the format question in the same message, so the user answers both at once.
+2. **Then ask once, and wait for the answer.** Ask about what is still open:
+    - **Format**, with the recommended one first and why in a few words. The recommendation is the format the customer profile gives for this recipient, otherwise the skill's own. Ask for every report: a format chosen for an earlier report does not carry over, and a saved default format, in the profile or the user's own preferences, is the recommendation, never a reason to skip. Skip the question only when the user has already named a format for this report.
     - **Template, only when the customer profile has none and the user has given no file.** Ask whether there is a template or an earlier report to take colours, fonts and logo from.
-    - **The current situation.** One line: is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
-    - **The outline, when this is the first report for the customer or there is no profile.** Five lines: verdict, the three main observations, the decisions you will propose. Ask whether it matches what they expect. It is much cheaper to correct the angle here than after the document is built.
+    - **The current situation.** Is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
+    - **The outline, when this is the first report for the customer or there is no profile.** Five lines: verdict, the three main observations, the decisions you will propose.
 3. **Build** from the answer, without asking again. When the answer about the situation changes how a number should be read, say so in the report.
+
+**Asking well.** Put everything in one message that reads as a single question with a proposal for each part, so the user can answer with one word or a short line. For example: "Shall I go with PowerPoint, with no special situation to account for and this angle: ...? Or tell me what to change." The user's own rules about how many questions to ask, or whether to ask at all, come first. When they leave no room for a question, do not ask: build in the recommended format, and start the reply by saying which format, situation and angle you assumed and that each can be changed.
 
 ## Working with the data
 
