@@ -27,6 +27,7 @@ This applies to reports delivered as a document. Each report skill names its for
 1. **Fetch and analyse first.** Reading changes nothing and does not depend on the format, so do not stop to ask before it. The only question that comes earlier is which tenant or unit the report is for, when the user can read several.
 2. **Then ask once, in one short message, and wait for the answer:**
     - **Format**, with the recommended one first and why in a few words. The recommendation is the format the customer profile gives for this recipient, otherwise the skill's own. Ask for every report: a format chosen for an earlier report does not carry over, and the profile's format is a recommendation, never a reason to skip. Skip the question only when the user has already named a format for this report.
+    - **Template, only when the customer profile has none and the user has given no file.** Ask whether there is a template or an earlier report to take colours, fonts and logo from.
     - **The current situation.** One line: is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
     - **The outline, when this is the first report for the customer or there is no profile.** Five lines: verdict, the three main observations, the decisions you will propose. Ask whether it matches what they expect. It is much cheaper to correct the angle here than after the document is built.
 3. **Build** from the answer, without asking again. When the answer about the situation changes how a number should be read, say so in the report.
@@ -46,7 +47,7 @@ This applies to reports delivered as a document. Each report skill names its for
 
 ## Form
 
-- Use the customer's own template (colours, fonts, logo) from the customer profile or from files the user provides. When there is none, ask once for one; if the user has none, use a clean, neutral, high-contrast layout.
+- Use the customer's own template (colours, fonts, logo) from the customer profile or from files the user provides. When there is none, the one question in "Before you build" has asked for it; if the user has none, use a clean, neutral, high-contrast layout. Never stop to ask about the template separately.
 - Deliver in the format the user chose: PowerPoint (.pptx), Word (.docx), PDF, or a web page. When a format cannot be made here, say so in the question and offer the closest one.
 - **A web page** is one self-contained page. Publish it as a shareable link when the client can, private to the user until they share it. Otherwise deliver it as a single .html file. Never publish customer data where anyone with the address can read it without the user choosing to share it.
 - File name: `<Customer>-<Unit>-<Report>-<YYYY-MM-DD>`, ASCII only.
