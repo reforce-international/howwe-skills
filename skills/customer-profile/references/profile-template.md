@@ -56,7 +56,7 @@ Business drivers that explain the goals: <for example raw-material supply, cost 
 
 | Recipient | What they want | Format |
 |---|---|---|
-| <the unit's leadership team> | <decisions for this month> | <PDF> |
+| <the unit's leadership team> | <decisions for this month> | <PowerPoint> |
 | <group management> | <the plan and decisions needed> | <slides> |
 
 ## Form
