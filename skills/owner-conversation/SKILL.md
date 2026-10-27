@@ -13,9 +13,9 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 - Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit is meant.
 - Load the customer profile as described in `references/report-practice.md`.
-- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, before fetching data.
 - Find the owner with `list_users` (`nameContains`) and confirm with `read_users` if several match.
 - Find the owner's initiatives with `get_user_assignments` for the owner's user id and tenant, with types limited to initiatives. If there are several, cover all of them or ask which one the conversation is about.
+- **Whenever this step has to ask** (which unit, which owner, which initiative), put the format question in the same message, as in "Before you build" in `references/report-practice.md`. When the owner's initiatives come only after the owner is settled, ask which initiative together with the format if the format is still open.
 
 ## 2. Get the data
 
@@ -37,6 +37,8 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 - **Three questions**, open, each tied to a number or a date.
 - **One next step** to agree in the conversation and follow up next time, phrased so it goes straight into the owner's personal goals or scorecard as the profile describes them.
 
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PDF, Word, PowerPoint or a web page. Recommend PDF, a page to read before the conversation; Word when the manager wants to write in it.
+
 ## 4. Structure (one page, two at most)
 
 1. Heading: owner's name, initiative, date of the conversation.
@@ -54,4 +56,4 @@ When the manager or a support function plans with an owner: the same data, with 
 
 ## 6. Deliver
 
-One page, in the format the user chose. Recommend PDF. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.
+One page, in the format the user chose. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.

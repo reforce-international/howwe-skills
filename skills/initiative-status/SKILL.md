@@ -23,7 +23,7 @@ If you need descriptions or objectives, read those items with `read_initiatives`
 
 ## 3. Assess it with Howwe's best practice
 
-Read `references/best-practice.md` and assess the initiative against it. Base every judgement on the data. If something is missing, say so instead of guessing.
+Read `references/best-practice.md` and assess the initiative against it. Read `references/howwe-model.md` for how to read the data, above all goal series: reported actuals are results, also for a period that has not ended. Base every judgement on the data. If something is missing, say so instead of guessing.
 
 ## 4. Answer
 

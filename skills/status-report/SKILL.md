@@ -11,9 +11,8 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 1. Customer context
 
-- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit the report is for.
+- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit the report is for, with the format in the same message.
 - Load the customer profile as described in `references/report-practice.md`.
-- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, now, before fetching data.
 
 ## 2. Get the data
 
@@ -26,13 +25,15 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 ## 3. Analyse
 
 - **The situation in one sentence**, with direction and two or three numbers.
-- **Goals**: goal, actual, attainment and outlook, read the way the customer reads each goal. Flag placeholder goal values.
+- **Goals**: goal, actual, attainment and outlook, read the way the customer reads each goal. Flag placeholder target values; reported actuals are results (`references/howwe-model.md`).
 - **Leading indicators**: which initiatives and milestones explain the movement in each goal. Follow `supports`, and translate into the customer's business drivers when the profile names them.
 - **Execution**: milestones done, overdue and due in the next 30 days, per initiative owner and per team or site.
 - **Patterns**: initiatives without milestones in the next 60 days, sub-initiatives without owner, goals without a supporting initiative, teams that have not held their acceleration meeting recently.
 - **Decisions for the leadership team**: prioritise, resource, start or stop. At most five.
 - **One question per initiative owner**, including the head's own initiatives, each with a number or date.
 - **Into the routines**: per initiative, the indicators, reports and next steps that go straight into the customer's own follow-up (scorecard, monthly report, personal goals) as the profile names them.
+
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint, Word, PDF or a web page. Recommend PowerPoint: the leadership team works in the decisions, action cards and agenda during the meeting, so the report should be editable.
 
 ## 4. Structure
 
@@ -49,6 +50,6 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 5. Deliver
 
-In the format the user chose. Recommend PDF. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
+In the format the user chose. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
 
 For the board, a board committee, group management or a steering group, use the leadership-report skill. Before the team's acceleration meeting, use the stand-up-brief skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.

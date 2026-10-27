@@ -11,10 +11,9 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 1. Customer context and recipient
 
-- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which company or unit the report is for.
+- Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which company or unit the report is for, with the format and, when unclear, the recipient in the same message.
 - Load the customer profile as described in `references/report-practice.md`.
-- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, before fetching data.
-- Settle the recipient in one question if it is unclear: the board, a board committee (AU), group management, a business review or a steering group. The profile may say how each wants the plan framed (for example as a multi-year journey, or around a named programme).
+- Settle the recipient in one question if it is unclear: the board, a board committee (AU), group management, a business review or a steering group. Ask the format in the same message, as in "Before you build" in `references/report-practice.md`. The profile may say how each wants the plan framed (for example as a multi-year journey, or around a named programme).
 - **The board or AU** owns the strategy and follows up on it: lead with whether the plan is on course for its goals, the risks to it, and the decisions only the board can take. Keep execution detail to what explains the goals.
 - **Group management or a steering group** wants to see how the unit's plan fits the group: keep section 6 below.
 
@@ -38,6 +37,8 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 Every section ends with what happens next, with a date.
 
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint, Word, PDF or a web page. Recommend PowerPoint, or Word when the recipient wants to build on the text.
+
 ## 4. Structure
 
 1. Summary: the situation in three sentences, and the decisions expected.
@@ -52,6 +53,6 @@ Every section ends with what happens next, with a date.
 
 ## 5. Deliver
 
-In the format the user chose. Recommend PowerPoint, or Word when the recipient wants to build on the text. Large headings, clear high-contrast colours within the customer's template. Follow the form, file-name and checking rules in `references/report-practice.md`.
+In the format the user chose. Large headings, clear high-contrast colours within the customer's template. Follow the form, file-name and checking rules in `references/report-practice.md`.
 
 For the company's or unit's own leadership team, use the status-report skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.
