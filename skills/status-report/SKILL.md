@@ -13,7 +13,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 - Call `get_current_user`, then `list_tenants`. If the user can read several tenants, ask once which unit the report is for.
 - Load the customer profile as described in `references/report-practice.md`.
-- Ask the one-line question about the current situation (`references/report-practice.md`) now, before fetching data.
+- Ask about format and the current situation, as in "Before you build" in `references/report-practice.md`, now, before fetching data.
 
 ## 2. Get the data
 
@@ -49,6 +49,6 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 5. Deliver
 
-PDF by default, slides when asked. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
+In the format the user chose. Recommend PDF. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
 
 For the board, a board committee, group management or a steering group, use the leadership-report skill. Before the team's acceleration meeting, use the stand-up-brief skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.
