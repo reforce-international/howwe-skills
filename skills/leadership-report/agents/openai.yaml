@@ -1,4 +1,0 @@
-interface:
-  display_name: "Leadership report"
-  short_description: "The plan and progress for group management or a steering group, from Howwe"
-  default_prompt: "Make a report on our plan for group management."
