@@ -37,7 +37,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 Every section ends with what happens next, with a date.
 
-Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint, Word, PDF or a web page. Recommend PowerPoint, or Word when the recipient wants to build on the text.
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint (.pptx), Word (.docx), PDF (.pdf) or a web page (link or .html). Recommend PowerPoint, or Word when the recipient wants to build on the text.
 
 ## 4. Structure
 

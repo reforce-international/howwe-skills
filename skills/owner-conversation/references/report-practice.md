@@ -26,13 +26,13 @@ This applies to reports delivered as a document. Each report skill names its for
 
 1. **Fetch and analyse first.** Reading changes nothing and does not depend on the format, so do not stop to ask before it. When a question has to be asked before fetching (which tenant or unit, which owner, which initiative, which recipient), ask the format question in the same message, so the user answers both at once.
 2. **Then ask once, and wait for the answer.** Ask about what is still open:
-    - **Format**, with the recommended one first and why in a few words. The recommendation is the format the customer profile gives for this recipient, otherwise the skill's own. Ask for every report: a format chosen for an earlier report does not carry over, and a saved default format, in the profile or the user's own preferences, is the recommendation, never a reason to skip. Skip the question only when the user has already named a format for this report.
+    - **Format**, always written with the file type: PowerPoint (.pptx), Word (.docx), PDF (.pdf) or a web page (link or .html). Put the recommended one first, mark it as recommended and say why in a few words. The recommendation is the format the customer profile gives for this recipient, otherwise PowerPoint (.pptx). Ask for every report: a format chosen for an earlier report does not carry over, and a saved default format, in the profile or the user's own preferences, is the recommendation, never a reason to skip. Skip the question only when the user has already named a format for this report.
     - **Template, only when the customer profile has none and the user has given no file.** Ask whether there is a template or an earlier report to take colours, fonts and logo from.
     - **The current situation.** Is anything right now affecting how the numbers should be read (a disruption, a reorganisation, budget work)? Use recent reports in the conversation or files when they exist.
     - **The outline, when this is the first report for the customer or there is no profile.** Five lines: verdict, the three main observations, the decisions you will propose.
 3. **Build** from the answer, without asking again. When the answer about the situation changes how a number should be read, say so in the report.
 
-**Asking well.** Put everything in one message that reads as a single question with a proposal for each part, so the user can answer with one word or a short line. For example: "Shall I go with PowerPoint, with no special situation to account for and this angle: ...? Or tell me what to change." The user's own rules about how many questions to ask, or whether to ask at all, come first. When they leave no room for a question, do not ask: build in the recommended format, and start the reply by saying which format, situation and angle you assumed and that each can be changed.
+**Asking well.** Put everything in one message that reads as a single question with a proposal for each part, so the user can answer with one word or a short line. For example: "Shall I make a PowerPoint file (.pptx, recommended), with no special situation to account for and this angle: ...? Or tell me what to change: Word (.docx), PDF (.pdf) or a web page." The user's own rules about how many questions to ask, or whether to ask at all, come first. When they leave no room for a question, or nobody can answer (a scheduled or unattended run), do not ask: build in the recommended format, PowerPoint (.pptx) unless the profile says otherwise, and say in the first line which format you chose and that it can be changed, then which situation and angle you assumed.
 
 ## Working with the data
 
@@ -50,7 +50,8 @@ This applies to reports delivered as a document. Each report skill names its for
 ## Form
 
 - Use the customer's own template (colours, fonts, logo) from the customer profile or from files the user provides. When there is none, the one question in "Before you build" has asked for it; if the user has none, use a clean, neutral, high-contrast layout. Never stop to ask about the template separately.
-- Deliver in the format the user chose: PowerPoint (.pptx), Word (.docx), PDF, or a web page. When a format cannot be made here, say so in the question and offer the closest one.
+- Deliver in the format the user chose: PowerPoint (.pptx), Word (.docx), PDF (.pdf), or a web page. When a format cannot be made here, say so in the question and offer the closest one.
+- **PowerPoint means a .pptx file**, made with the client's own tool for PowerPoint files when it has one. When the user chooses PowerPoint, always deliver a .pptx file. A presentation viewed in the browser, or a link to slides, is a web page: make one only when the user asks for a shareable link.
 - **A web page** is one self-contained page. Publish it as a shareable link when the client can, private to the user until they share it. Otherwise deliver it as a single .html file. Never publish customer data where anyone with the address can read it without the user choosing to share it.
 - File name: `<Customer>-<Unit>-<Report>-<YYYY-MM-DD>`, ASCII only.
 - Language: the customer profile's language, or the user's.

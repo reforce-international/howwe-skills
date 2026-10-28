@@ -37,9 +37,9 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 - **Three questions**, open, each tied to a number or a date.
 - **One next step** to agree in the conversation and follow up next time, phrased so it goes straight into the owner's personal goals or scorecard as the profile describes them.
 
-Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PDF, Word, PowerPoint or a web page. Recommend PDF, a page to read before the conversation; Word when the manager wants to write in it.
+Then ask the question in "Before you build" in `references/report-practice.md`, leaving out format when it was already answered together with an earlier question, and wait for the answer. **Format:** PowerPoint (.pptx), PDF (.pdf), Word (.docx) or a web page (link or .html). Recommend PowerPoint, one or two slides to read before the conversation; Word when the manager wants to write in it.
 
-## 4. Structure (one page, two at most)
+## 4. Structure (one page or slide, two at most)
 
 1. Heading: owner's name, initiative, date of the conversation.
 2. The situation in two sentences.
@@ -56,4 +56,4 @@ When the manager or a support function plans with an owner: the same data, with 
 
 ## 6. Deliver
 
-One page, in the format the user chose. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.
+One page or slide, two at most, in the format the user chose. File name `<Customer>-<Unit>-Owner-conversation-<Firstname-Lastname>-<YYYY-MM-DD>`. Follow the form and checking rules in `references/report-practice.md`. Write in the owner's working language.
