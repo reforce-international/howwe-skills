@@ -52,4 +52,4 @@ Then ask the question in "Before you build" in `references/report-practice.md`, 
 
 In the format the user chose. Follow the form, file-name and checking rules in `references/report-practice.md`. Offer an English version in one line when part of the leadership team works in English.
 
-For the board, a board committee, group management or a steering group, use the leadership-report skill. Before the team's acceleration meeting, use the stand-up-brief skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.
+For the board, a board committee, group management or a steering group, use the board-report skill. Before the team's acceleration meeting, use the stand-up-brief skill. Before a one-to-one with an initiative owner, use the owner-conversation skill.

@@ -45,7 +45,7 @@ tools.snapshot.json               known MCP tool names for the contract test
 | `report-progress` | Report outcomes and goal actuals, commit, add activities, mark items done. Shows every change and waits for a yes |
 | `initiative-status` | How one initiative is going |
 | `status-report` | Status report for a company's or unit's leadership team |
-| `leadership-report` | The plan and progress for the board, a board committee, group management or a steering group |
+| `board-report` | Board report: the plan and progress for the board or AU, and for group management or a steering group |
 | `owner-conversation` | Brief before a one-to-one with an initiative owner |
 | `customer-profile` | The customer's words, goals, routines and template, read by the report skills |
 

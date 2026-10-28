@@ -1,0 +1,4 @@
+interface:
+  display_name: "Board report"
+  short_description: "Board report on the plan and progress, from Howwe"
+  default_prompt: "Make a board report on our strategy."
