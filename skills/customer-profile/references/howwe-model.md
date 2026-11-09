@@ -16,7 +16,7 @@ Strategic plan  (the strategic goals and initiatives, see below)
          └─ Activity         the work a team commits to in the acceleration meeting
 ```
 
-A goal or initiative in the strategic plan is a **strategic goal** or a **strategic initiative**; every other one is simply a goal or an initiative. The tools say goal, as the app does, but keep two older names: an aggregate target is a Team Activity, and an acceleration meeting is the Strategy Stand-up or the tenant's own name for it. Those tool names never appear in anything you write.
+A goal or a top-level initiative that is strategic (see below) is a **strategic goal** or a **strategic initiative**; every other one is simply a goal or an initiative. The tools say goal, as the app does, but keep two older names: an aggregate target is a Team Activity, and an acceleration meeting is the Strategy Stand-up or the tenant's own name for it. Those tool names never appear in anything you write.
 
 Items are linked by `supports` (what this item supports) and `supportedBy` (what directly supports it). Follow `supports` upward to explain why work matters, and `supportedBy` downward to explain why a goal is moving or not.
 
@@ -38,9 +38,9 @@ Use the customer's own words when the customer profile gives them. Otherwise use
 
 | Howwe item | English | Swedish |
 |---|---|---|
-| Goal in the strategic plan | Strategic goal | Strategiskt mål |
+| Strategic goal (`strategic: true`) | Strategic goal | Strategiskt mål |
 | Any other goal | Goal | Mål |
-| Initiative in the strategic plan | Strategic initiative | Strategiskt initiativ |
+| Strategic initiative (`strategic: true`) | Strategic initiative | Strategiskt initiativ |
 | Any other initiative | Initiative | Initiativ |
 | Sub-initiative | Sub-initiative | Delinitiativ |
 | Initiative objectives | Objectives | Målsättning på initiativ |
