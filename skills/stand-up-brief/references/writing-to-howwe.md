@@ -18,7 +18,7 @@ Ask again for each new batch of changes. A yes covers the list it answered, neve
 
 - **Read before you change.** Tools that change an item need its `rev`. Take it from a `read_*` call or the answer of the change before, never from memory. When a call is refused because the item has changed, read it again, show the user what changed and ask before retrying.
 - **Reports add, they do not replace.** `create_activity_report` logs an increment, not a new total. When the user gives a total ("we are at 40 now"), work out the increment from the activity's reports and show both numbers.
-- **Goal actuals replace.** `report_mig_actual` replaces any actual already in that period. Read the goal first with `read_migs` and show the number it replaces. When the goal takes its actuals from an external source (`externallyUpdated`), say that a later sync may overwrite the number.
+- **Goal actuals replace.** `report_goal_actual` replaces any actual already in that period. Read the goal first with `read_goals` and show the number it replaces. When the goal takes its actuals from an external source (`externallyUpdated`), say that a later sync may overwrite the number.
 - **Commitments need an assignee.** An activity without an assignee cannot be committed to. Ask who owns it rather than guessing.
 - **Never create a user, delete or archive anything** from these skills. When the user asks for that, explain that it is done in the Howwe app, or by asking for it directly in a separate request.
 - **The user's own rights apply.** Howwe only lets the user change what they may change in the app. When a call is refused for lack of rights, say so and suggest who can do it.

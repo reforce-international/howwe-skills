@@ -24,8 +24,8 @@ Read `references/howwe-model.md` before you start, and follow it. From `referenc
 - `list_team_activities` with commitments and reports: what was committed at the last meeting, what was reported since, and what is still open.
 - `list_team_aggregate_targets`: the team's shared numbers.
 - `list_team_milestones`: the milestones the team works on, with deadlines.
-- `list_team_migs` and `read_migs`: the team's own goals, when it has any.
-- Follow `supports` upward with `read_initiatives` and `read_migs` to name the initiatives and goals the work moves. Only as far as needed to name them.
+- `list_team_goals` and `read_goals`: the team's own goals, when it has any.
+- Follow `supports` upward with `read_initiatives` and `read_goals` to name the initiatives and goals the work moves. Only as far as needed to name them.
 
 ## 3. What goes in
 
