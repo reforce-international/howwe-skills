@@ -14,15 +14,15 @@ Updated: <YYYY-MM-DD> by <name>
 
 | Howwe item | The customer says |
 |---|---|
-| Company Goal | <for example "overall goal"> |
-| Goal (team) | |
-| Initiative | <for example "success factor"> |
+| Strategic goal | <for example "overall goal"> |
+| Goal | |
+| Strategic initiative | <for example "success factor"> |
+| Initiative | |
 | Sub-initiative | |
 | Initiative objectives | <for example "indicators"> |
 | Initiative purpose | <for example "mission"> |
-| Team initiative | |
 | Milestone | |
-| Aggregate target / activity | |
+| Team Activity / activity | |
 | Acceleration meeting | <from Howwe: accelerationMeetingName> |
 | Initiative owner | |
 
@@ -34,7 +34,7 @@ Words to avoid: <...>
 
 - Plan: <title>, <horizon>, vision "<vision>"
 - How the plan is framed for leadership: <for example "a multi-year journey towards the target year">
-- Initiatives and owners: <initiative>: <owner>
+- Strategic initiatives and owners: <initiative>: <owner>
 
 ## How each goal is read
 

@@ -16,9 +16,10 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 ## 2. Get the data
 
-- `get_strategic_plan`: the published plan's vision, goals, initiatives, sub-initiatives and owners. APPROVED items only; see `references/howwe-model.md` for a tenant mid-workshop or without a published plan.
-- `read_migs` on each approved goal's `materializedMigId`: goal, actual and series.
-- `read_initiative_tree` per top-level initiative, with activities: sub-initiatives, milestones, aggregate targets and activities in one call. The tree already holds the sub-initiatives, so do not call it for them.
+- `get_strategic_plan`: the published plan's vision; see `references/howwe-model.md` for a tenant mid-workshop or without a published plan.
+- `list_strategic_goals`, then `read_goals` on the current ones: goal, actual and series.
+- `list_initiatives` for the strategic initiatives, those with `strategic: true`, and their owners.
+- `read_initiative_tree` per strategic initiative, with activities: sub-initiatives, milestones, aggregate targets and activities in one call. The tree already holds the sub-initiatives, so do not call it for them.
 - `read_initiatives` for objectives and purpose; `read_milestones` and `read_activities` when you need more detail.
 - `list_contributing_teams` per initiative, then `list_team_acceleration_meetings` once per distinct team: when each team last held its acceleration meeting.
 

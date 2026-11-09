@@ -15,7 +15,7 @@ Read `references/howwe-model.md` before you start. Read `references/writing-to-h
 - `get_user_assignments` with no arguments: the user's open initiatives, milestones and activities, with deadlines.
 - `read_activities` with commitments and reports on the user's activities: what they committed to at the last acceleration meeting and what they have reported.
 - `list_team_acceleration_meetings` for the user's teams: when the next meeting is, since commitments fall due before it.
-- Resolve what the items support with `read_initiatives`, `read_milestones` or `read_migs`, only to name them.
+- Resolve what the items support with `read_initiatives`, `read_milestones` or `read_goals`, only to name them.
 
 Today's date decides what is late and what is due. Count "the next few days" as the next seven days, or until the next acceleration meeting when that is later.
 

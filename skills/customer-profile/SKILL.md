@@ -12,7 +12,7 @@ The profile belongs to the customer. It never goes into this repository.
 ## 1. Start from Howwe
 
 - Call `get_current_user` and `list_tenants`. One profile can cover several tenants of the same customer; ask which ones belong together.
-- Per tenant: `get_strategic_plan` for the published plan's title, vision, horizon, goals, initiatives and owners (not the workshop draft); `read_migs` on the approved goals for units and period types; `accelerationMeetingName` from `list_tenants`.
+- Per tenant: `get_strategic_plan` for the published plan's title, vision and horizon (not the workshop draft); `list_strategic_goals`, and `read_goals` on them for units and period types; `list_initiatives` for the strategic initiatives (`strategic: true`) and their owners; `accelerationMeetingName` from `list_tenants`.
 - Fill in everything this answers in `references/profile-template.md`. Mark it as "from Howwe" with today's date: owners and initiatives change, so the profile records them as a snapshot and the reports always verify them live.
 
 ## 2. Ask for what Howwe cannot know

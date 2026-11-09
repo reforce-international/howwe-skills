@@ -20,7 +20,7 @@ Read `references/writing-to-howwe.md` and `references/howwe-model.md` before you
 | The user says | Tool | Read first |
 |---|---|---|
 | What was done, or how much, on an activity | `create_activity_report` (value and/or note) | `read_activities` with commitments and reports, for the unit and earlier reports |
-| What a goal reached in a period | `report_mig_actual` | `read_migs`, for the period's `targetDate`, the rev and any actual it replaces |
+| What a goal reached in a period | `report_goal_actual` | `read_goals`, for the period's `targetDate`, the rev and any actual it replaces |
 | What the team will do before the next meeting | `create_activity_commitment` | the activity, to check that it has an assignee and a target |
 | A promise from the last meeting is kept | `complete_activity_commitment` | `read_activities` with commitments and reports, for the commitment id and the rev |
 | A new piece of work | `create_activity`, with `assigneeId` | the team, the initiative or milestone it supports, and who owns it. Ask for the owner: without one the activity cannot be committed to |

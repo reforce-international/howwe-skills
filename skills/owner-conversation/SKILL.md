@@ -21,7 +21,7 @@ Read `references/howwe-model.md` and `references/report-practice.md` before you 
 
 - `read_initiative_tree` per initiative the owner holds, with activities, skipping any that already appear inside another's tree: sub-initiatives, milestones, aggregate targets, activities and the teams behind them.
 - `read_initiatives` for purpose and objectives.
-- `read_migs` for the goals each initiative supports, following `supports`.
+- `read_goals` for the goals each initiative supports, following `supports`.
 - `list_contributing_teams`, then `list_team_acceleration_meetings` once per distinct team: when each team last held its acceleration meeting.
 - The brief from the previous conversation, when it is in the conversation or files: what was agreed and what was to be followed up.
 
